@@ -1,0 +1,4 @@
+[01-May-2012 20:28:20 UTC] PHP Warning:  readfile(http://chart.apis.google.com/chart?cht=lc&amp;chdl=Nice+figures&amp;chco=ED237A&amp;chxt=x,y&amp;chds=0,200&amp;chdlp=t&amp;chxr=0,0,28,7|1,0,200&amp;chg=25,10,4,1,0,0&amp;chd=t:120,131,135,160,129,22,190) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/vagnersa/public_html/complexidade/GChart/gChart.php on line 665
+[01-May-2012 20:28:44 UTC] PHP Warning:  readfile(http://chart.apis.google.com/chart?cht=lc&amp;chdl=Nice+figures&amp;chco=ED237A&amp;chxt=x,y&amp;chds=0,200&amp;chdlp=t&amp;chxr=0,0,28,7|1,0,200&amp;chg=25,10,4,1,0,0&amp;chd=t:120,131,135,160,129,22,190) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/vagnersa/public_html/complexidade/GChart/gChart.php on line 665

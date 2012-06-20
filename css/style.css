@@ -1,0 +1,242 @@
+@import url('fonts/fonts.css');
+
+body {
+	margin:0;
+	padding:0;
+	padding-top: 7px;
+	text-align: center;
+	font: 14px "Ubuntu";
+	color: #7F7F7F;
+	background: url('../img/diagonal-noise.png');
+}
+
+#page {
+	margin: 0 auto;
+	text-align: left;
+	width: 1080px;
+}
+
+#header {
+	padding-top: 10px;
+	background: url('../img/black_linen_v1.png');
+	height: 80px;
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+	border: solid 2px #1C1C1C;
+
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+	-moz-box-shadow:5px 5px 20px #696969;
+	-webkit-box-shadow:5px 5px 20px, #696969;
+	box-shadow:5px 5px 20px #696969;
+}
+
+#header p{
+	font-size: 13px;
+}
+
+#logo{
+	float: right;
+	margin-top: -74px;
+	margin-right: 50px;
+	width: 76px;
+	height: 68px;
+	background: url('../img/unesp.png') no-repeat;
+}
+
+#content {
+	height: 610px;
+	padding-top: 7px;
+	padding-bottom: 10px;
+}
+
+#left_bar{
+	height: 100%;	
+	width: 230px;
+	overflow: hidden;
+	border: solid 1px #9C9C9C;
+	background: #FFFFFF;
+
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+	-moz-box-shadow:5px 5px 10px #9C9C9C;
+	-webkit-box-shadow:5px 5px 10px, #9C9C9C;
+	box-shadow:5px 5px 10px #9C9C9C;
+}
+
+#left_bar p{
+	margin-left: 10px;
+	margin-top: 7px;
+	font-family: 'MuseoSans100';
+	font-size: 22px;
+	color: #4F4F4F;
+}
+
+#center_bar{
+	margin-top: -612px;
+	margin-left: 238px;
+	height: 100%; 
+	width: 840px;
+	overflow: auto;
+	border: solid 1px #9C9C9C;
+	background: #FFF;
+
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+	-moz-box-shadow:5px 5px 10px #9C9C9C;
+	-webkit-box-shadow:5px 5px 10px, #9C9C9C;
+	box-shadow:5px 5px 10px #9C9C9C;
+}
+
+#about{
+	margin: 15px;
+}
+
+#load{
+	margin-top: 25%;
+}
+
+#loading{
+	margin-top: 4px;
+	width: 222px;
+	height: 23px;
+	background: url('../img/loader.gif') no-repeat;
+}
+
+.name p{
+	width: 350px;
+	margin-left: 10px;
+	margin-top: 12px;
+	font-family: 'MuseoSans100';
+	font-size: 22px;
+	color: #1A648E;
+	cursor: pointer;
+}
+
+#results{
+	margin-top: -15px;
+	margin-left: 10px;
+	width: 98.8%;
+	height: 550px;
+	overflow: auto;
+}
+
+#footer {
+	height: 60px;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	border: solid 1px #9C9C9C;
+	background: #FFF;
+
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+	-moz-box-shadow:5px 5px 10px #9C9C9C;
+	-webkit-box-shadow:5px 5px 10px, #9C9C9C;
+	box-shadow:5px 5px 10px #9C9C9C;
+}
+
+a:link, a:visited, a:active {
+	cursor: pointer;
+	text-decoration: none;
+	color: #828282;
+}
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: #1A648E;
+}
+
+ul#sliding-navigation {
+	list-style: none;
+	padding: 0;
+	margin-top: -10px;
+}
+ul#sliding-navigation li.sliding-element a {
+	display: block;
+	width: 150px;
+	padding: 5px 18px;
+	margin: 0;
+	margin-bottom: 5px;
+
+	text-decoration: none;
+	color: #FFF;
+	background: url('../img/black_linen_v1.png') repeat-y;
+	border: solid 1px #1C1C1C;
+
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	-o-border-radius: 0px 4px 4px 0px;
+	border-radius: 0px 4px 4px 0px;
+}
+ul#sliding-navigation li.sliding-element a:hover {
+	color: #000;
+    text-shadow: 3px 2px 5px #000000;
+    filter: dropshadow(color=#000000, offx=3, offy=2);
+}
+
+/* --------------------------- Algorithms ---------------------------*/
+#result{
+	padding: 10px;
+	height: 95%;
+}
+
+#time{
+}
+
+#vet{
+	float: left;
+	width: 300px;
+	height: 85%;
+	overflow: auto;
+	border: solid 1px #9C9C9C;
+}
+
+#vet2{
+	float: left;
+	width: 300px;
+	height: 85%;
+	overflow: auto;
+	border: solid 1px #9C9C9C;
+}
+
+/* --------------------------- Tabela ---------------------------*/
+.tabela{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+table.tabela {
+	border-collapse: collapse;
+}
+table.tabela tr td {
+	border:1px solid #828282;
+}
+
+table.tabela th {
+	border:1px solid #828282;
+}
+
+.topicos{
+	margin-bottom: 5px;
+}
+.topicos li{
+	font-size: 17px;
+	color: #607B8B;
+}
+
+#graph{
+	margin-left: 25px;
+}
