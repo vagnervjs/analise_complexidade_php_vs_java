@@ -1,6 +1,6 @@
 ##Projeto de Analise Complexidade de Algoritmos
 ##PHP vs Java
---
+-
 Este projeto tem como objetivo analisar o desempenho e complexidade de diversos algoritmos de ordenação, 
 no qual foram implementados nas linguagens PHP e Java, podendo assim gerarmos uma comparaçãoentre ambas linguagens 
 após a realização de vários testes de execução com entradas possuindo quantidade significante de elementos ordenados 
